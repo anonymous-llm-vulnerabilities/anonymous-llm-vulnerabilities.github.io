@@ -4,6 +4,13 @@
 
 TODO
 
+## Implementation details
+
+- StarCoder is the base model of StarChat-Beta; see https://huggingface.co/blog/starchat-alpha.
+- We used the next-largest 13B version of LLAMA 2 because we lacked the resources to run the 70B version.
+- Code LLAMA's example scripts set \texttt{top\_p} to 0.9; see https://github.com/facebookresearch/codellama/blob/main/example\_completion.py\#L15.
+- OpenAI recommends to alter either temperature or top_p, but not both, for their models; see https://platform.openai.com/docs/api-reference/chat/create.
+
 ## Model survey
 
 | Model                                          | Organization              | Parameters (Billion) | Fine-tuned for Instruction-following/chat?                                                    | Trained on code?                                                | Inference?                                   | Fine-tune?                                                                   | How to access?                                                                 | Exclusion rationale                |
