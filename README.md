@@ -8,7 +8,7 @@ Please see full data and code here: [https://figshare.com/s/78fe02e56e09ec49300b
 - [MCC/F1 favored severely biased models (Section II. Study Setup)](#mccf1-favored-severely-biased-models-section-ii-study-setup)
   - [MCC](#mcc)
   - [F1](#f1)
-- [Examples of our prompts](#examples-of-our-prompts)
+- [Examples of our prompts (Section III-A. Prompting Methods)](#examples-of-our-prompts-section-iii-a-prompting-methods)
 - [Implementation details (Section II. Study Setup)](#implementation-details-section-ii-study-setup)
 - [Model survey (Section II. Study Setup)](#model-survey-section-ii-study-setup)
   - [Models we studied](#models-we-studied)
@@ -125,7 +125,7 @@ F1 highly rewards some models/prompts which are totally imbalanced (see GPT-4, G
 | GPT-3.5          |      1 |  0.0231 |          0.51 |         0.25 |            0.75 |
 | GPT-3.5          |      2 | -0.0483 |          0.48 |         0.22 |            0.78 |
 
-## Examples of our prompts
+## Examples of our prompts (Section III-A. Prompting Methods)
 
 <embed src="https://anonymous-llm-vulnerabilities.github.io/Appendix.pdf" type="application/pdf"/>
 
