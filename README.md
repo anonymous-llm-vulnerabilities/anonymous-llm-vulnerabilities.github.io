@@ -8,6 +8,7 @@ Please see full data and code here: [https://figshare.com/s/78fe02e56e09ec49300b
 - [MCC/F1 favored severely biased models (Section II. Study Setup)](#mccf1-favored-severely-biased-models-section-ii-study-setup)
   - [MCC](#mcc)
   - [F1](#f1)
+- [Examples of our prompts](#examples-of-our-prompts)
 - [Implementation details (Section II. Study Setup)](#implementation-details-section-ii-study-setup)
 - [Model survey (Section II. Study Setup)](#model-survey-section-ii-study-setup)
   - [Models we studied](#models-we-studied)
@@ -124,13 +125,9 @@ F1 highly rewards some models/prompts which are totally imbalanced (see GPT-4, G
 | GPT-3.5          |      1 |  0.0231 |          0.51 |         0.25 |            0.75 |
 | GPT-3.5          |      2 | -0.0483 |          0.48 |         0.22 |            0.78 |
 
-<!-- ## Examples of the prompts (Section III-A. Prompting Methods)
+## Examples of our prompts
 
-TODO (from the appendix?)                                                                                        | Yes? (instruction distillation - not sure if it includes code)  | Yes, HF                                      | Yes, HF                                                                      | HF https://github.com/lm-sys/FastChat/blob/main/docs/vicuna_weights_version.md | Distilled from ChatGPT completions |
-
-## Examples of error analysis data and rubrid (Section III-C. Study Setup)
-
-TODO -->
+<embed src="https://anonymous-llm-vulnerabilities.github.io/Appendix.pdf" type="application/pdf"/>
 
 ## Implementation details (Section II. Study Setup)
 
