@@ -127,9 +127,8 @@ F1 highly rewards some models/prompts which are totally imbalanced (see GPT-4, G
 
 ## Examples of our prompts (Section III-A. Prompting Methods)
 
-See examples of our prompts here:
-
-![Prompt examples](./Appendix.pdf)
+See examples of our prompts here: [Prompt examples](./Appendix.pdf)
+<embed src="https://anonymous-llm-vulnerabilities.github.io/Appendix.pdf" type="application/pdf" />
 
 ## Implementation details (Section II. Study Setup)
 
